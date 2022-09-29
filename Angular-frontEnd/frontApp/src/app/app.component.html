@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-sm" style="background-color:rgba(224, 195, 210, 0.8)">
+    <!-- Navbar content -->
+    <ul class="navbar-nav container">
+        <li class="navbar-item">
+            <a routerLink="employees" class="nav-link" routerLinkActive="active">Employee List</a>
+        </li>
+        <li class="navbar-item">
+            <a routerLink="create-employee" class="nav-link" routerLinkActive="active">Add Employee</a>
+        </li>
+    </ul>
+</nav>
+
+
+<h1 class="text-center">{{title}}</h1>
+<div class="container col-md-10 offset-md-1">
+    <router-outlet></router-outlet>
+</div>
+
+<footer class="footer">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright @Rohit
+    </div>
+</footer>
